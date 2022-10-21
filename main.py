@@ -1,0 +1,5 @@
+s = str(input("Введите продукт из которого изготовлен сок \n"))
+volum = int(input("Введите объём сока в милилитрах \n"))
+s = s.upper()
+name = s[:3] + str(volum)
+print(name)
